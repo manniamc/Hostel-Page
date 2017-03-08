@@ -1,0 +1,24 @@
+.img-circle{
+	height: 122px;
+	width: 122px;
+	padding: 2px;
+	border: 5px solid #1048a2;
+	display: inline-block;
+	-webkit-transition: border-radius 1s ease-in-out;
+    -moz-transition: border-radius 1s ease-in-out;
+    transition: border-radius .35s ease-in-out;
+}
+
+.img-circle:hover{
+	border-radius: 1%;
+	box-shadow: 0px 20px 100px rgba(16, 72, 162,0.3),20px 0px 100px rgba(16, 72, 162,0.3);
+}
+
+#image-container{
+	padding-right: 0%;
+	padding-left: 2.5%;
+	padding-bottom: 2%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}

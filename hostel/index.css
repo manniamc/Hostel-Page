@@ -1,0 +1,33 @@
+article{
+	height: auto;
+	padding: 10%;
+	padding-bottom: 5%;
+	padding-top: 25%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+}
+.left_image, .right_image{
+	border: 1px solid black;
+	outline-style: ridge;
+	cursor: pointer;
+}
+.left_image:hover, .right_image:hover{
+	box-shadow: 10px 10px 10px grey;
+}
+.left_image{
+	display: block;
+	margin-left: auto;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	width: 45%;
+	float: left;
+}
+.right_image{
+	display: block;
+	margin-right: auto;
+	margin-left: 4%;
+	margin-bottom: 2%;
+	width: 45%;
+	float: right;
+}
+
